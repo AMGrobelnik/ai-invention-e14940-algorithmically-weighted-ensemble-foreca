@@ -1,0 +1,96 @@
+{
+  "datasets": [
+    {
+      "dataset": "non_stationary_ar2",
+      "examples": [
+        {
+          "input": "{\"previous_value\": 0.0, \"time_index\": 0}",
+          "output": "0.0",
+          "metadata_regime": "non_stationary",
+          "metadata_row_index": 0
+        },
+        {
+          "input": "{\"previous_value\": 0.0, \"time_index\": 1}",
+          "output": "0.0",
+          "metadata_regime": "non_stationary",
+          "metadata_row_index": 1
+        },
+        {
+          "input": "{\"previous_value\": 0.0, \"time_index\": 2}",
+          "output": "-0.33758913748719077",
+          "metadata_regime": "non_stationary",
+          "metadata_row_index": 2
+        }
+      ]
+    },
+    {
+      "dataset": "chaotic_lorenz",
+      "examples": [
+        {
+          "input": "{\"previous_value\": 0.0, \"time_index\": 0}",
+          "output": "1.0",
+          "metadata_regime": "chaotic",
+          "metadata_row_index": 0
+        },
+        {
+          "input": "{\"previous_value\": 1.0, \"time_index\": 1}",
+          "output": "1.0",
+          "metadata_regime": "chaotic",
+          "metadata_row_index": 1
+        },
+        {
+          "input": "{\"previous_value\": 1.0, \"time_index\": 2}",
+          "output": "1.026",
+          "metadata_regime": "chaotic",
+          "metadata_row_index": 2
+        }
+      ]
+    },
+    {
+      "dataset": "sinusoidal_drift",
+      "examples": [
+        {
+          "input": "{\"previous_value\": 0.0, \"time_index\": 0}",
+          "output": "0.27987108731720045",
+          "metadata_regime": "trend_seasonal",
+          "metadata_row_index": 0
+        },
+        {
+          "input": "{\"previous_value\": 0.27987108731720045, \"time_index\": 1}",
+          "output": "0.2374583957936349",
+          "metadata_regime": "trend_seasonal",
+          "metadata_row_index": 1
+        },
+        {
+          "input": "{\"previous_value\": 0.2374583957936349, \"time_index\": 2}",
+          "output": "0.11686409515207909",
+          "metadata_regime": "trend_seasonal",
+          "metadata_row_index": 2
+        }
+      ]
+    },
+    {
+      "dataset": "random_noise",
+      "examples": [
+        {
+          "input": "{\"previous_value\": 0.0, \"time_index\": 0}",
+          "output": "0.4967141530112327",
+          "metadata_regime": "stochastic",
+          "metadata_row_index": 0
+        },
+        {
+          "input": "{\"previous_value\": 0.4967141530112327, \"time_index\": 1}",
+          "output": "-0.13826430117118466",
+          "metadata_regime": "stochastic",
+          "metadata_row_index": 1
+        },
+        {
+          "input": "{\"previous_value\": -0.13826430117118466, \"time_index\": 2}",
+          "output": "0.6476885381006925",
+          "metadata_regime": "stochastic",
+          "metadata_row_index": 2
+        }
+      ]
+    }
+  ]
+}
