@@ -1,0 +1,414 @@
+{
+  "datasets": [
+    {
+      "dataset": "RandomWalk",
+      "examples": [
+        {
+          "input": "History: [np.float64(100.49671415301123), np.float64(100.35844985184005), np.float64(101.00613838994074)]",
+          "output": "102.5292",
+          "metadata_fold": 0,
+          "predict_naive": "101.0061",
+          "predict_moving_average": "100.6204",
+          "predict_complexity_weighted_ensemble": "100.8133"
+        },
+        {
+          "input": "History: [np.float64(100.35844985184005), np.float64(101.00613838994074), np.float64(102.52916824634876)]",
+          "output": "102.2950",
+          "metadata_fold": 0,
+          "predict_naive": "102.5292",
+          "predict_moving_average": "101.2979",
+          "predict_complexity_weighted_ensemble": "101.9136"
+        },
+        {
+          "input": "History: [np.float64(101.00613838994074), np.float64(102.52916824634876), np.float64(102.29501487162543)]",
+          "output": "102.0609",
+          "metadata_fold": 0,
+          "predict_naive": "102.2950",
+          "predict_moving_average": "101.9434",
+          "predict_complexity_weighted_ensemble": "102.1192"
+        },
+        {
+          "input": "History: [np.float64(102.52916824634876), np.float64(102.29501487162543), np.float64(102.06087791467625)]",
+          "output": "103.6401",
+          "metadata_fold": 0,
+          "predict_naive": "102.0609",
+          "predict_moving_average": "102.2950",
+          "predict_complexity_weighted_ensemble": "102.1780"
+        },
+        {
+          "input": "History: [np.float64(102.29501487162543), np.float64(102.06087791467625), np.float64(103.64009073018364)]",
+          "output": "104.4075",
+          "metadata_fold": 0,
+          "predict_naive": "103.6401",
+          "predict_moving_average": "102.6653",
+          "predict_complexity_weighted_ensemble": "103.1527"
+        },
+        {
+          "input": "History: [np.float64(102.06087791467625), np.float64(103.64009073018364), np.float64(104.40752545933655)]",
+          "output": "103.9381",
+          "metadata_fold": 0,
+          "predict_naive": "104.4075",
+          "predict_moving_average": "103.3695",
+          "predict_complexity_weighted_ensemble": "103.8885"
+        },
+        {
+          "input": "History: [np.float64(103.64009073018364), np.float64(104.40752545933655), np.float64(103.9380510734016)]",
+          "output": "104.4806",
+          "metadata_fold": 0,
+          "predict_naive": "103.9381",
+          "predict_moving_average": "103.9952",
+          "predict_complexity_weighted_ensemble": "103.9667"
+        },
+        {
+          "input": "History: [np.float64(104.40752545933655), np.float64(103.9380510734016), np.float64(104.48061111698756)]",
+          "output": "104.0172",
+          "metadata_fold": 0,
+          "predict_naive": "104.4806",
+          "predict_moving_average": "104.2754",
+          "predict_complexity_weighted_ensemble": "104.3780"
+        },
+        {
+          "input": "History: [np.float64(103.9380510734016), np.float64(104.48061111698756), np.float64(104.0171934241751)]",
+          "output": "103.5515",
+          "metadata_fold": 0,
+          "predict_naive": "104.0172",
+          "predict_moving_average": "104.1453",
+          "predict_complexity_weighted_ensemble": "104.0813"
+        },
+        {
+          "input": "History: [np.float64(104.48061111698756), np.float64(104.0171934241751), np.float64(103.55146367060485)]",
+          "output": "103.7934",
+          "metadata_fold": 0,
+          "predict_naive": "103.5515",
+          "predict_moving_average": "104.0164",
+          "predict_complexity_weighted_ensemble": "103.7840"
+        },
+        {
+          "input": "History: [np.float64(104.0171934241751), np.float64(103.55146367060485), np.float64(103.79342594217087)]",
+          "output": "101.8801",
+          "metadata_fold": 0,
+          "predict_naive": "103.7934",
+          "predict_moving_average": "103.7874",
+          "predict_complexity_weighted_ensemble": "103.7904"
+        },
+        {
+          "input": "History: [np.float64(103.55146367060485), np.float64(103.79342594217087), np.float64(101.88014569751307)]",
+          "output": "100.1552",
+          "metadata_fold": 0,
+          "predict_naive": "101.8801",
+          "predict_moving_average": "103.0750",
+          "predict_complexity_weighted_ensemble": "102.4776"
+        },
+        {
+          "input": "History: [np.float64(103.79342594217087), np.float64(101.88014569751307), np.float64(100.15522786500004)]",
+          "output": "99.5929",
+          "metadata_fold": 0,
+          "predict_naive": "100.1552",
+          "predict_moving_average": "101.9429",
+          "predict_complexity_weighted_ensemble": "101.0490"
+        },
+        {
+          "input": "History: [np.float64(101.88014569751307), np.float64(100.15522786500004), np.float64(99.59294033575907)]",
+          "output": "98.5801",
+          "metadata_fold": 0,
+          "predict_naive": "99.5929",
+          "predict_moving_average": "100.5428",
+          "predict_complexity_weighted_ensemble": "100.0678"
+        },
+        {
+          "input": "History: [np.float64(100.15522786500004), np.float64(99.59294033575907), np.float64(98.58010921542466)]",
+          "output": "98.8944",
+          "metadata_fold": 0,
+          "predict_naive": "98.5801",
+          "predict_moving_average": "99.4428",
+          "predict_complexity_weighted_ensemble": "99.0114"
+        },
+        {
+          "input": "History: [np.float64(99.59294033575907), np.float64(98.58010921542466), np.float64(98.89435654801993)]",
+          "output": "97.9863",
+          "metadata_fold": 0,
+          "predict_naive": "98.8944",
+          "predict_moving_average": "99.0225",
+          "predict_complexity_weighted_ensemble": "98.9584"
+        },
+        {
+          "input": "History: [np.float64(98.58010921542466), np.float64(98.89435654801993), np.float64(97.98633247249872)]",
+          "output": "96.5740",
+          "metadata_fold": 0,
+          "predict_naive": "97.9863",
+          "predict_moving_average": "98.4869",
+          "predict_complexity_weighted_ensemble": "98.2366"
+        },
+        {
+          "input": "History: [np.float64(98.89435654801993), np.float64(97.98633247249872), np.float64(96.57402877116343)]",
+          "output": "98.0397",
+          "metadata_fold": 0,
+          "predict_naive": "96.5740",
+          "predict_moving_average": "97.8182",
+          "predict_complexity_weighted_ensemble": "97.1961"
+        },
+        {
+          "input": "History: [np.float64(97.98633247249872), np.float64(96.57402877116343), np.float64(98.03967754008498)]",
+          "output": "97.8139",
+          "metadata_fold": 0,
+          "predict_naive": "98.0397",
+          "predict_moving_average": "97.5333",
+          "predict_complexity_weighted_ensemble": "97.7865"
+        },
+        {
+          "input": "History: [np.float64(96.57402877116343), np.float64(98.03967754008498), np.float64(97.81390123959844)]",
+          "output": "97.8814",
+          "metadata_fold": 0,
+          "predict_naive": "97.8139",
+          "predict_moving_average": "97.4759",
+          "predict_complexity_weighted_ensemble": "97.6449"
+        },
+        {
+          "input": "History: [np.float64(98.03967754008498), np.float64(97.81390123959844), np.float64(97.88142944428637)]",
+          "output": "96.4567",
+          "metadata_fold": 0,
+          "predict_naive": "97.8814",
+          "predict_moving_average": "97.9117",
+          "predict_complexity_weighted_ensemble": "97.8965"
+        },
+        {
+          "input": "History: [np.float64(97.81390123959844), np.float64(97.88142944428637), np.float64(96.4566812580729)]",
+          "output": "95.9123",
+          "metadata_fold": 0,
+          "predict_naive": "96.4567",
+          "predict_moving_average": "97.3840",
+          "predict_complexity_weighted_ensemble": "96.9203"
+        },
+        {
+          "input": "History: [np.float64(97.88142944428637), np.float64(96.4566812580729), np.float64(95.91229853354773)]",
+          "output": "96.0232",
+          "metadata_fold": 0,
+          "predict_naive": "95.9123",
+          "predict_moving_average": "96.7501",
+          "predict_complexity_weighted_ensemble": "96.3312"
+        },
+        {
+          "input": "History: [np.float64(96.4566812580729), np.float64(95.91229853354773), np.float64(96.02322112325758)]",
+          "output": "94.8722",
+          "metadata_fold": 0,
+          "predict_naive": "96.0232",
+          "predict_moving_average": "96.1307",
+          "predict_complexity_weighted_ensemble": "96.0770"
+        },
+        {
+          "input": "History: [np.float64(95.91229853354773), np.float64(96.02322112325758), np.float64(94.87222754583529)]",
+          "output": "95.2479",
+          "metadata_fold": 0,
+          "predict_naive": "94.8722",
+          "predict_moving_average": "95.6026",
+          "predict_complexity_weighted_ensemble": "95.2374"
+        }
+      ]
+    },
+    {
+      "dataset": "SinusoidalDrift",
+      "examples": [
+        {
+          "input": "History: [np.float64(-0.021967188783751194), np.float64(0.29883837888321185), np.float64(0.6580760793983123)]",
+          "output": "0.6747",
+          "metadata_fold": 0,
+          "predict_naive": "0.6581",
+          "predict_moving_average": "0.3116",
+          "predict_complexity_weighted_ensemble": "0.4502"
+        },
+        {
+          "input": "History: [np.float64(0.29883837888321185), np.float64(0.6580760793983123), np.float64(0.674702012959005)]",
+          "output": "0.8180",
+          "metadata_fold": 0,
+          "predict_naive": "0.6747",
+          "predict_moving_average": "0.5439",
+          "predict_complexity_weighted_ensemble": "0.5962"
+        },
+        {
+          "input": "History: [np.float64(0.6580760793983123), np.float64(0.674702012959005), np.float64(0.8180262091075692)]",
+          "output": "0.9670",
+          "metadata_fold": 0,
+          "predict_naive": "0.8180",
+          "predict_moving_average": "0.7169",
+          "predict_complexity_weighted_ensemble": "0.7573"
+        },
+        {
+          "input": "History: [np.float64(0.674702012959005), np.float64(0.8180262091075692), np.float64(0.9669703322773229)]",
+          "output": "1.1661",
+          "metadata_fold": 0,
+          "predict_naive": "0.9670",
+          "predict_moving_average": "0.8199",
+          "predict_complexity_weighted_ensemble": "0.8787"
+        },
+        {
+          "input": "History: [np.float64(0.8180262091075692), np.float64(0.9669703322773229), np.float64(1.1661477935663123)]",
+          "output": "1.1013",
+          "metadata_fold": 0,
+          "predict_naive": "1.1661",
+          "predict_moving_average": "0.9837",
+          "predict_complexity_weighted_ensemble": "1.0567"
+        },
+        {
+          "input": "History: [np.float64(0.9669703322773229), np.float64(1.1661477935663123), np.float64(1.1012790727834556)]",
+          "output": "0.9468",
+          "metadata_fold": 0,
+          "predict_naive": "1.1013",
+          "predict_moving_average": "1.0781",
+          "predict_complexity_weighted_ensemble": "1.0874"
+        },
+        {
+          "input": "History: [np.float64(1.1661477935663123), np.float64(1.1012790727834556), np.float64(0.9467616124178361)]",
+          "output": "0.9251",
+          "metadata_fold": 0,
+          "predict_naive": "0.9468",
+          "predict_moving_average": "1.0714",
+          "predict_complexity_weighted_ensemble": "1.0216"
+        },
+        {
+          "input": "History: [np.float64(1.1012790727834556), np.float64(0.9467616124178361), np.float64(0.9251198358645776)]",
+          "output": "0.7091",
+          "metadata_fold": 0,
+          "predict_naive": "0.9251",
+          "predict_moving_average": "0.9911",
+          "predict_complexity_weighted_ensemble": "0.9647"
+        },
+        {
+          "input": "History: [np.float64(0.9467616124178361), np.float64(0.9251198358645776), np.float64(0.7091141201947945)]",
+          "output": "0.5854",
+          "metadata_fold": 0,
+          "predict_naive": "0.7091",
+          "predict_moving_average": "0.8603",
+          "predict_complexity_weighted_ensemble": "0.7998"
+        },
+        {
+          "input": "History: [np.float64(0.9251198358645776), np.float64(0.7091141201947945), np.float64(0.5853661977057939)]",
+          "output": "0.1851",
+          "metadata_fold": 0,
+          "predict_naive": "0.5854",
+          "predict_moving_average": "0.7399",
+          "predict_complexity_weighted_ensemble": "0.6781"
+        },
+        {
+          "input": "History: [np.float64(0.7091141201947945), np.float64(0.5853661977057939), np.float64(0.18512607545344423)]",
+          "output": "-0.0172",
+          "metadata_fold": 0,
+          "predict_naive": "0.1851",
+          "predict_moving_average": "0.4932",
+          "predict_complexity_weighted_ensemble": "0.3700"
+        },
+        {
+          "input": "History: [np.float64(0.5853661977057939), np.float64(0.18512607545344423), np.float64(-0.017199048019132683)]",
+          "output": "-0.2539",
+          "metadata_fold": 0,
+          "predict_naive": "-0.0172",
+          "predict_moving_average": "0.2511",
+          "predict_complexity_weighted_ensemble": "0.1438"
+        },
+        {
+          "input": "History: [np.float64(0.18512607545344423), np.float64(-0.017199048019132683), np.float64(-0.25390966239484986)]",
+          "output": "-0.5663",
+          "metadata_fold": 0,
+          "predict_naive": "-0.2539",
+          "predict_moving_average": "-0.0287",
+          "predict_complexity_weighted_ensemble": "-0.1188"
+        },
+        {
+          "input": "History: [np.float64(-0.017199048019132683), np.float64(-0.25390966239484986), np.float64(-0.5663315595021466)]",
+          "output": "-0.5568",
+          "metadata_fold": 0,
+          "predict_naive": "-0.5663",
+          "predict_moving_average": "-0.2791",
+          "predict_complexity_weighted_ensemble": "-0.3940"
+        },
+        {
+          "input": "History: [np.float64(-0.25390966239484986), np.float64(-0.5663315595021466), np.float64(-0.5567706652021213)]",
+          "output": "-0.6764",
+          "metadata_fold": 0,
+          "predict_naive": "-0.5568",
+          "predict_moving_average": "-0.4590",
+          "predict_complexity_weighted_ensemble": "-0.4981"
+        },
+        {
+          "input": "History: [np.float64(-0.5663315595021466), np.float64(-0.5567706652021213), np.float64(-0.6763859487287692)]",
+          "output": "-0.7596",
+          "metadata_fold": 0,
+          "predict_naive": "-0.6764",
+          "predict_moving_average": "-0.5998",
+          "predict_complexity_weighted_ensemble": "-0.6304"
+        },
+        {
+          "input": "History: [np.float64(-0.5567706652021213), np.float64(-0.6763859487287692), np.float64(-0.7595860804277258)]",
+          "output": "-0.7782",
+          "metadata_fold": 0,
+          "predict_naive": "-0.7596",
+          "predict_moving_average": "-0.6642",
+          "predict_complexity_weighted_ensemble": "-0.7024"
+        },
+        {
+          "input": "History: [np.float64(-0.6763859487287692), np.float64(-0.7595860804277258), np.float64(-0.7781798658056404)]",
+          "output": "-0.8274",
+          "metadata_fold": 0,
+          "predict_naive": "-0.7782",
+          "predict_moving_average": "-0.7381",
+          "predict_complexity_weighted_ensemble": "-0.7541"
+        },
+        {
+          "input": "History: [np.float64(-0.7595860804277258), np.float64(-0.7781798658056404), np.float64(-0.8274354995654365)]",
+          "output": "-0.5993",
+          "metadata_fold": 0,
+          "predict_naive": "-0.8274",
+          "predict_moving_average": "-0.7884",
+          "predict_complexity_weighted_ensemble": "-0.8040"
+        },
+        {
+          "input": "History: [np.float64(-0.7781798658056404), np.float64(-0.8274354995654365), np.float64(-0.5992743034633133)]",
+          "output": "-0.4103",
+          "metadata_fold": 0,
+          "predict_naive": "-0.5993",
+          "predict_moving_average": "-0.7350",
+          "predict_complexity_weighted_ensemble": "-0.6807"
+        },
+        {
+          "input": "History: [np.float64(-0.8274354995654365), np.float64(-0.5992743034633133), np.float64(-0.4103236630677194)]",
+          "output": "-0.2334",
+          "metadata_fold": 0,
+          "predict_naive": "-0.4103",
+          "predict_moving_average": "-0.6123",
+          "predict_complexity_weighted_ensemble": "-0.5315"
+        },
+        {
+          "input": "History: [np.float64(-0.5992743034633133), np.float64(-0.4103236630677194), np.float64(-0.233395424152185)]",
+          "output": "0.0819",
+          "metadata_fold": 0,
+          "predict_naive": "-0.2334",
+          "predict_moving_average": "-0.4143",
+          "predict_complexity_weighted_ensemble": "-0.3419"
+        },
+        {
+          "input": "History: [np.float64(-0.4103236630677194), np.float64(-0.233395424152185), np.float64(0.08191312625978728)]",
+          "output": "0.4028",
+          "metadata_fold": 0,
+          "predict_naive": "0.0819",
+          "predict_moving_average": "-0.1873",
+          "predict_complexity_weighted_ensemble": "-0.0796"
+        },
+        {
+          "input": "History: [np.float64(-0.233395424152185), np.float64(0.08191312625978728), np.float64(0.40277325319757523)]",
+          "output": "0.8124",
+          "metadata_fold": 0,
+          "predict_naive": "0.4028",
+          "predict_moving_average": "0.0838",
+          "predict_complexity_weighted_ensemble": "0.2114"
+        },
+        {
+          "input": "History: [np.float64(0.08191312625978728), np.float64(0.40277325319757523), np.float64(0.8123862753170965)]",
+          "output": "0.8838",
+          "metadata_fold": 0,
+          "predict_naive": "0.8124",
+          "predict_moving_average": "0.4324",
+          "predict_complexity_weighted_ensemble": "0.5844"
+        }
+      ]
+    }
+  ]
+}

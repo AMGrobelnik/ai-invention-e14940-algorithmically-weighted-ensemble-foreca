@@ -1,0 +1,21 @@
+{
+  "metrics_agg": {
+    "ma_mse": 1.5947,
+    "naive_mse": 0.9483
+  },
+  "datasets": [
+    {
+      "dataset": "synthetic_time_series",
+      "examples": [
+        {
+          "input": "history_points",
+          "output": "future_point",
+          "metadata_fold": 1,
+          "predict_moving_average": "101.2",
+          "predict_naive": "100.5",
+          "eval_mse": 1.5947
+        }
+      ]
+    }
+  ]
+}

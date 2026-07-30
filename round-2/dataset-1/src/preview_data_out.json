@@ -1,0 +1,264 @@
+{
+  "datasets": [
+    {
+      "dataset": "non_stationary_ar2",
+      "examples": [
+        {
+          "input": "{\"previous_value\": 0.0, \"time_index\": 0}",
+          "output": "0.0",
+          "metadata_regime": "non_stationary",
+          "metadata_row_index": 0
+        },
+        {
+          "input": "{\"previous_value\": 0.0, \"time_index\": 1}",
+          "output": "0.0",
+          "metadata_regime": "non_stationary",
+          "metadata_row_index": 1
+        },
+        {
+          "input": "{\"previous_value\": 0.0, \"time_index\": 2}",
+          "output": "-0.33758913748719077",
+          "metadata_regime": "non_stationary",
+          "metadata_row_index": 2
+        },
+        {
+          "input": "{\"previous_value\": -0.33758913748719077, \"time_index\": 3}",
+          "output": "-0.2425729982525206",
+          "metadata_regime": "non_stationary",
+          "metadata_row_index": 3
+        },
+        {
+          "input": "{\"previous_value\": -0.2425729982525206, \"time_index\": 4}",
+          "output": "-0.48518988609190095",
+          "metadata_regime": "non_stationary",
+          "metadata_row_index": 4
+        },
+        {
+          "input": "{\"previous_value\": -0.48518988609190095, \"time_index\": 5}",
+          "output": "-0.3759535841517214",
+          "metadata_regime": "non_stationary",
+          "metadata_row_index": 5
+        },
+        {
+          "input": "{\"previous_value\": -0.3759535841517214, \"time_index\": 6}",
+          "output": "-1.089638508212163",
+          "metadata_regime": "non_stationary",
+          "metadata_row_index": 6
+        },
+        {
+          "input": "{\"previous_value\": -1.089638508212163, \"time_index\": 7}",
+          "output": "-0.4120056767434983",
+          "metadata_regime": "non_stationary",
+          "metadata_row_index": 7
+        },
+        {
+          "input": "{\"previous_value\": -0.4120056767434983, \"time_index\": 8}",
+          "output": "-0.1013402592709418",
+          "metadata_regime": "non_stationary",
+          "metadata_row_index": 8
+        },
+        {
+          "input": "{\"previous_value\": -0.1013402592709418, \"time_index\": 9}",
+          "output": "-0.41936297044558984",
+          "metadata_regime": "non_stationary",
+          "metadata_row_index": 9
+        }
+      ]
+    },
+    {
+      "dataset": "chaotic_lorenz",
+      "examples": [
+        {
+          "input": "{\"previous_value\": 0.0, \"time_index\": 0}",
+          "output": "1.0",
+          "metadata_regime": "chaotic",
+          "metadata_row_index": 0
+        },
+        {
+          "input": "{\"previous_value\": 1.0, \"time_index\": 1}",
+          "output": "1.0",
+          "metadata_regime": "chaotic",
+          "metadata_row_index": 1
+        },
+        {
+          "input": "{\"previous_value\": 1.0, \"time_index\": 2}",
+          "output": "1.026",
+          "metadata_regime": "chaotic",
+          "metadata_row_index": 2
+        },
+        {
+          "input": "{\"previous_value\": 1.026, \"time_index\": 3}",
+          "output": "1.0751566666666668",
+          "metadata_regime": "chaotic",
+          "metadata_row_index": 3
+        },
+        {
+          "input": "{\"previous_value\": 1.0751566666666668, \"time_index\": 4}",
+          "output": "1.1456131764000002",
+          "metadata_regime": "chaotic",
+          "metadata_row_index": 4
+        },
+        {
+          "input": "{\"previous_value\": 1.1456131764000002, \"time_index\": 5}",
+          "output": "1.236317170692351",
+          "metadata_regime": "chaotic",
+          "metadata_row_index": 5
+        },
+        {
+          "input": "{\"previous_value\": 1.236317170692351, \"time_index\": 6}",
+          "output": "1.346883543428101",
+          "metadata_regime": "chaotic",
+          "metadata_row_index": 6
+        },
+        {
+          "input": "{\"previous_value\": 1.346883543428101, \"time_index\": 7}",
+          "output": "1.4774923478684758",
+          "metadata_regime": "chaotic",
+          "metadata_row_index": 7
+        },
+        {
+          "input": "{\"previous_value\": 1.4774923478684758, \"time_index\": 8}",
+          "output": "1.6288142132177872",
+          "metadata_regime": "chaotic",
+          "metadata_row_index": 8
+        },
+        {
+          "input": "{\"previous_value\": 1.6288142132177872, \"time_index\": 9}",
+          "output": "1.8019572717941623",
+          "metadata_regime": "chaotic",
+          "metadata_row_index": 9
+        }
+      ]
+    },
+    {
+      "dataset": "sinusoidal_drift",
+      "examples": [
+        {
+          "input": "{\"previous_value\": 0.0, \"time_index\": 0}",
+          "output": "0.27987108731720045",
+          "metadata_regime": "trend_seasonal",
+          "metadata_row_index": 0
+        },
+        {
+          "input": "{\"previous_value\": 0.27987108731720045, \"time_index\": 1}",
+          "output": "0.2374583957936349",
+          "metadata_regime": "trend_seasonal",
+          "metadata_row_index": 1
+        },
+        {
+          "input": "{\"previous_value\": 0.2374583957936349, \"time_index\": 2}",
+          "output": "0.11686409515207909",
+          "metadata_regime": "trend_seasonal",
+          "metadata_row_index": 2
+        },
+        {
+          "input": "{\"previous_value\": 0.11686409515207909, \"time_index\": 3}",
+          "output": "0.02770674688070393",
+          "metadata_regime": "trend_seasonal",
+          "metadata_row_index": 3
+        },
+        {
+          "input": "{\"previous_value\": 0.02770674688070393, \"time_index\": 4}",
+          "output": "0.34852020907022657",
+          "metadata_regime": "trend_seasonal",
+          "metadata_row_index": 4
+        },
+        {
+          "input": "{\"previous_value\": 0.34852020907022657, \"time_index\": 5}",
+          "output": "0.3388560116779986",
+          "metadata_regime": "trend_seasonal",
+          "metadata_row_index": 5
+        },
+        {
+          "input": "{\"previous_value\": 0.3388560116779986, \"time_index\": 6}",
+          "output": "0.4898607401871154",
+          "metadata_regime": "trend_seasonal",
+          "metadata_row_index": 6
+        },
+        {
+          "input": "{\"previous_value\": 0.4898607401871154, \"time_index\": 7}",
+          "output": "0.4877787738171271",
+          "metadata_regime": "trend_seasonal",
+          "metadata_row_index": 7
+        },
+        {
+          "input": "{\"previous_value\": 0.4877787738171271, \"time_index\": 8}",
+          "output": "0.6197176673576078",
+          "metadata_regime": "trend_seasonal",
+          "metadata_row_index": 8
+        },
+        {
+          "input": "{\"previous_value\": 0.6197176673576078, \"time_index\": 9}",
+          "output": "0.35084657698231164",
+          "metadata_regime": "trend_seasonal",
+          "metadata_row_index": 9
+        }
+      ]
+    },
+    {
+      "dataset": "random_noise",
+      "examples": [
+        {
+          "input": "{\"previous_value\": 0.0, \"time_index\": 0}",
+          "output": "0.4967141530112327",
+          "metadata_regime": "stochastic",
+          "metadata_row_index": 0
+        },
+        {
+          "input": "{\"previous_value\": 0.4967141530112327, \"time_index\": 1}",
+          "output": "-0.13826430117118466",
+          "metadata_regime": "stochastic",
+          "metadata_row_index": 1
+        },
+        {
+          "input": "{\"previous_value\": -0.13826430117118466, \"time_index\": 2}",
+          "output": "0.6476885381006925",
+          "metadata_regime": "stochastic",
+          "metadata_row_index": 2
+        },
+        {
+          "input": "{\"previous_value\": 0.6476885381006925, \"time_index\": 3}",
+          "output": "1.5230298564080254",
+          "metadata_regime": "stochastic",
+          "metadata_row_index": 3
+        },
+        {
+          "input": "{\"previous_value\": 1.5230298564080254, \"time_index\": 4}",
+          "output": "-0.23415337472333597",
+          "metadata_regime": "stochastic",
+          "metadata_row_index": 4
+        },
+        {
+          "input": "{\"previous_value\": -0.23415337472333597, \"time_index\": 5}",
+          "output": "-0.23413695694918055",
+          "metadata_regime": "stochastic",
+          "metadata_row_index": 5
+        },
+        {
+          "input": "{\"previous_value\": -0.23413695694918055, \"time_index\": 6}",
+          "output": "1.5792128155073915",
+          "metadata_regime": "stochastic",
+          "metadata_row_index": 6
+        },
+        {
+          "input": "{\"previous_value\": 1.5792128155073915, \"time_index\": 7}",
+          "output": "0.7674347291529088",
+          "metadata_regime": "stochastic",
+          "metadata_row_index": 7
+        },
+        {
+          "input": "{\"previous_value\": 0.7674347291529088, \"time_index\": 8}",
+          "output": "-0.4694743859349521",
+          "metadata_regime": "stochastic",
+          "metadata_row_index": 8
+        },
+        {
+          "input": "{\"previous_value\": -0.4694743859349521, \"time_index\": 9}",
+          "output": "0.5425600435859647",
+          "metadata_regime": "stochastic",
+          "metadata_row_index": 9
+        }
+      ]
+    }
+  ]
+}

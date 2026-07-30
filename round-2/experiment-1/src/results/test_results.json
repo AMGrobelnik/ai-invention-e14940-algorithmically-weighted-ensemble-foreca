@@ -1,0 +1,5 @@
+{
+  "mse_naive": 0.9185781931971951,
+  "mse_3pt_ma": 1.594718888886852,
+  "beats_baseline": false
+}

@@ -1,0 +1,94 @@
+{
+  "datasets": [
+    {
+      "dataset": "RandomWalk",
+      "examples": [
+        {
+          "input": "History: [np.float64(100.49671415301123), np.float64(100.35844985184005), np.float64(101.00613838994074)]",
+          "output": "102.5292",
+          "metadata_fold": 0,
+          "predict_naive": "101.0061",
+          "predict_moving_average": "100.6204",
+          "predict_complexity_weighted_ensemble": "100.8133"
+        },
+        {
+          "input": "History: [np.float64(100.35844985184005), np.float64(101.00613838994074), np.float64(102.52916824634876)]",
+          "output": "102.2950",
+          "metadata_fold": 0,
+          "predict_naive": "102.5292",
+          "predict_moving_average": "101.2979",
+          "predict_complexity_weighted_ensemble": "101.9136"
+        },
+        {
+          "input": "History: [np.float64(101.00613838994074), np.float64(102.52916824634876), np.float64(102.29501487162543)]",
+          "output": "102.0609",
+          "metadata_fold": 0,
+          "predict_naive": "102.2950",
+          "predict_moving_average": "101.9434",
+          "predict_complexity_weighted_ensemble": "102.1192"
+        },
+        {
+          "input": "History: [np.float64(102.52916824634876), np.float64(102.29501487162543), np.float64(102.06087791467625)]",
+          "output": "103.6401",
+          "metadata_fold": 0,
+          "predict_naive": "102.0609",
+          "predict_moving_average": "102.2950",
+          "predict_complexity_weighted_ensemble": "102.1780"
+        },
+        {
+          "input": "History: [np.float64(102.29501487162543), np.float64(102.06087791467625), np.float64(103.64009073018364)]",
+          "output": "104.4075",
+          "metadata_fold": 0,
+          "predict_naive": "103.6401",
+          "predict_moving_average": "102.6653",
+          "predict_complexity_weighted_ensemble": "103.1527"
+        }
+      ]
+    },
+    {
+      "dataset": "SinusoidalDrift",
+      "examples": [
+        {
+          "input": "History: [np.float64(-0.021967188783751194), np.float64(0.29883837888321185), np.float64(0.6580760793983123)]",
+          "output": "0.6747",
+          "metadata_fold": 0,
+          "predict_naive": "0.6581",
+          "predict_moving_average": "0.3116",
+          "predict_complexity_weighted_ensemble": "0.4502"
+        },
+        {
+          "input": "History: [np.float64(0.29883837888321185), np.float64(0.6580760793983123), np.float64(0.674702012959005)]",
+          "output": "0.8180",
+          "metadata_fold": 0,
+          "predict_naive": "0.6747",
+          "predict_moving_average": "0.5439",
+          "predict_complexity_weighted_ensemble": "0.5962"
+        },
+        {
+          "input": "History: [np.float64(0.6580760793983123), np.float64(0.674702012959005), np.float64(0.8180262091075692)]",
+          "output": "0.9670",
+          "metadata_fold": 0,
+          "predict_naive": "0.8180",
+          "predict_moving_average": "0.7169",
+          "predict_complexity_weighted_ensemble": "0.7573"
+        },
+        {
+          "input": "History: [np.float64(0.674702012959005), np.float64(0.8180262091075692), np.float64(0.9669703322773229)]",
+          "output": "1.1661",
+          "metadata_fold": 0,
+          "predict_naive": "0.9670",
+          "predict_moving_average": "0.8199",
+          "predict_complexity_weighted_ensemble": "0.8787"
+        },
+        {
+          "input": "History: [np.float64(0.8180262091075692), np.float64(0.9669703322773229), np.float64(1.1661477935663123)]",
+          "output": "1.1013",
+          "metadata_fold": 0,
+          "predict_naive": "1.1661",
+          "predict_moving_average": "0.9837",
+          "predict_complexity_weighted_ensemble": "1.0567"
+        }
+      ]
+    }
+  ]
+}
